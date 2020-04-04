@@ -5,5 +5,116 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.elevacaoconsiencia5dias.ConscienciaDia5Activity">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="vertical"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+
+            <TextView
+                android:id="@+id/txt_consciencia_dia5_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dia_5_s_por_hoje_sou_bondoso"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt_consciencia_dia5_explicacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a_tua_bondade_o_que_faz_brilhar_mais_o_espelho_do_cora_o_se_tu_brilhares_os_outros_tamb_m_ir_o_brilhar_s_por_hoje_v_boas_coisas_em_ti_e_nos_outros_de_que_forma_achas_que_a_bondade_transforma_o_espelho_do_teu_cora_o_n_n125_o_espelho_ndevo_polir_o_meu_eu_nmais_e_mais_npara_usar_o_claro_ne_brilhante_cora_o_dos_outros_ncomo_um_espelho_n_nao_longo_do_dia_vai_enviando_reiki_com_muita_bondade_e_amor_incondicional_a_quem_te_lembrares_ou_para_as_pessoas_com_quem_te_vais_cruzando_desapega_te_n_o_precisas_de_saber_o_que_aconteceu_com_esse_envio_f_lo_apenas_por_um_ato_de_bondade_e_humanidade"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_consciencia_dia5_titulo" />
+
+            <TextView
+                android:id="@+id/txt_consciencia_dia5_praticas_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/t_cnicas"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_consciencia_dia5_explicacao" />
+
+            <TextView
+                android:id="@+id/txt_consciencia_dia5_praticas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no_final_do_dia_volta_a_praticar_o_nentatsu_como_fizeste_no_primeiro_dia_visualiza_a_virtude_que_queres_atingir_n_ncomo_te_sentes_depois_destes_exerc_cios_faz_novamente_a_medita_o_gassho_e_agradece_tem_um_dia_feliz_n_nque_acima_de_tudo_estejas_bem_contigo_mesmo_e_em_un_ssono_com_o_universo_partilha_esse_teu_bem_estar_e_a_descoberta_com_os_outros_alegra_te_e_espalha_a_benesse_do_reiki_e_da_felicidade_que_est_em_ti_na_eleva_o_da_consci_ncia_assim_simples_como_o_pr_prio_reiki_a_simples_transforma_o_da_nossa_forma_de_estar_e_a_reflex_o_da_mesma_na_vida_e_em_tudo_que_nos_rodeia_nespero_que_tenhas_gostado_deste_programa_ele_parece_simples_mas_muito_profundo_toca_nos_pontos_que_precisamos_de_transformar_para_sermos_melhores_como_o_nosso_crescimento_n_o_uma_corrida_ent_o_leva_o_teu_tempo_sente_nque_cada_momento_dos_teus_dias_seja_vivido_com_alegria_por_conseguires_saborear_a_particularidade_que_eles_te_trazem"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_consciencia_dia5_praticas_titulo" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/edittext_consciencia_dia5_observacao"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:hint="@string/escreve_a_observa_ao"
+                app:boxStrokeColor="@color/colorPrimary"
+                app:boxStrokeWidth="1dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_consciencia_dia5_praticas">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edittext_consciencia_dia5_observacao_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:contentDescription="@string/image"
+                app:layout_constraintBottom_toTopOf="@+id/btn_fechar_consciencia_dia5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_min="300dp"
+                app:layout_constraintWidth_min="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edittext_consciencia_dia5_observacao"
+                app:srcCompat="@drawable/yoga2" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_fechar_consciencia_dia5"
+                style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="@string/gravar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
