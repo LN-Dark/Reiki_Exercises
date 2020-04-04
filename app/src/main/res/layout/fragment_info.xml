@@ -79,6 +79,20 @@
         app:layout_constraintStart_toEndOf="@+id/divider2"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_Kenyoku_ho_info"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:gravity="center"
+        android:text="@string/kenyoku_ho_t_cnica_do_banho_seco"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Reiji_Ho_info" />
+
     <ImageView
         android:id="@+id/btn_paypal"
         android:layout_width="0dp"
@@ -128,7 +142,7 @@
         app:layout_constraintBottom_toTopOf="@+id/btn_telegram"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_Reiji_Ho_info" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_Kenyoku_ho_info" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.info.InfoKENYOKU_HOActivity">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="vertical"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:id="@+id/txt_info_banhoseco"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:nestedScrollingEnabled="true"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:scrollbarStyle="insideInset"
+                android:scrollbars="vertical"
+                android:singleLine="false"
+                android:text="@string/kenyoku_ho_a_t_cnica_do_banho_seco_indicada_pelo_mestre_usui_para_a_limpeza_do_excesso_de_energia_remo_o_de_liga_es_e_coloca_o_da_mente_numa_postura_centrada_n_nexistem_v_rias_aplica_es_do_kenyoku_ho_o_banho_seco_h_sistemas_que_ensinam_primeiro_a_limpeza_dos_bra_os_outros_o_varrimento_na_diagonal_do_ombro_anca_n_o_ser_necess_rio_prendermo_nos_com_detalhes_de_qual_dos_sistemas_est_correcto_experimentem_e_apliquem_a_t_cnica_isso_sim_importante_n_nantes_de_praticarem_o_kenyoku_ho_o_banho_seco_liguem_se_energia_reiki_realizando_a_medita_o_gassho_cumpram_os_tr_s_pilares_do_reiki_e_deixem_fluir_a_energia_verifiquem_como_se_sentem_antes_n_nkenyoku_ho_t_cnica_do_banho_seco_n_ndiagonal_ombro_esquerdo_anca_direita_ndeslizar_com_firmeza_a_m_o_direita_desde_o_ombro_esquerdo_anca_direita_imaginando_que_se_est_o_a_cortar_todas_as_liga_es_com_outras_pessoas_e_a_limpar_o_excesso_de_energia_dos_chakras_frontais_nrepetir_mais_duas_vezes_ndiagonal_ombro_direito_anca_esquerda_ndeslizar_com_firmeza_a_m_o_direita_desde_o_ombro_esquerdo_anca_direita_imaginando_que_se_est_o_a_cortar_todas_as_liga_es_com_outras_pessoas_e_a_limpar_o_excesso_de_energia_dos_chakras_frontais_nrepetir_mais_duas_vezes_nbra_o_esquerdo_limpeza_da_energia_acumulada_tr_s_vezes_ntrazer_a_m_o_direita_at_o_ombro_esquerdo_as_pontas_dos_dedos_onde_termina_o_ombro_a_palma_da_m_o_de_frente_para_o_corpo_ncolocar_o_bra_o_esquerdo_esticado_com_os_dedos_da_m_o_esticados_para_a_frente_mas_ligeiramente_inclinado_para_baixo_para_que_a_energia_varrida_seja_enviada_para_a_terra_ndeslizar_a_m_o_direita_pelo_bra_o_esquerdo_at_sair_fora_da_ponta_dos_dedos_da_m_o_esquerda_nrepetir_mais_duas_vezes_nbra_o_direito_limpeza_da_energia_acumulada_tr_s_vezes_ntrazer_a_m_o_esquerda_at_o_ombro_direito_as_pontas_dos_dedos_onde_termina_o_ombro_a_palma_da_m_o_de_frente_para_o_corpo_ncolocar_o_bra_o_direito_esticado_com_os_dedos_da_m_o_esticados_para_a_frente_mas_ligeiramente_inclinado_para_baixo_para_que_a_energia_varrida_seja_enviada_para_a_terra_ndeslizar_a_m_o_esquerda_pelo_bra_o_direito_at_sair_fora_da_ponta_dos_dedos_da_m_o_direita_nrepetir_mais_duas_vezes_nap_s_fazerem_esta_t_cnica_como_se_sentem_n_no_banho_seco_deve_ser_realizado_antes_e_depois_de_qualquer_autotratamento_ou_sess_o_de_reiki_permite_nos_limpar_a_energia_densa_acumulada_nas_m_os_e_bra_os_limpeza_dos_chakras_frontais_e_corte_das_liga_es_energ_ticas"
+                android:textIsSelectable="false"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_info_banhoseco_tittle" />
+
+    <TextView
+        android:id="@+id/txt_info_banhoseco_tittle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/kenyoku_ho_t_cnica_do_banho_seco"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_fechar_infobanhoseco"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="@string/fechar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toTopOf="@+id/btn_fechar_infobanhoseco"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_min="200dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_info_banhoseco"
+                app:layout_constraintWidth_min="200dp"
+                app:srcCompat="@drawable/kenyoku" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

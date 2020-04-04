@@ -5,5 +5,116 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.elevacaoconsiencia5dias.ConscienciaDia2Activity">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="vertical"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+
+            <TextView
+                android:id="@+id/txt_consciencia_dia2_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dia_2_s_por_hoje_confio"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt_consciencia_dia2_explicacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a_confian_a_e_um_c_u_interior_sem_limites_o_que_ser_que_isso_te_diz_n_n2_o_c_u_nazul_claro_e_sem_nuvens_no_grande_c_u_ntamb_m_eu_gostaria_nde_ter_um_esp_rito_assim_n_nhoje_vamos_trabalhar_as_limita_es_faz_uma_pequena_observa_o_sobre_ti_mesmo_e_pensa_no_que_te_limita_interiormente_e_de_que_forma_gostarias_de_ser_sem_essa_limita_o"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_consciencia_dia2_titulo" />
+
+            <TextView
+                android:id="@+id/txt_consciencia_dia2_praticas_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/t_cnicas"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_consciencia_dia2_explicacao" />
+
+            <TextView
+                android:id="@+id/txt_consciencia_dia2_praticas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/coloca_a_m_o_esquerda_abaixo_do_umbigo_e_a_direita_na_mesma_dire_o_mas_nas_costas_deixa_fluir_o_reiki_para_desintoxicar_e_imagina_que_tudo_o_que_n_o_queres_sai_de_ti_n_o_te_preocupes_por_onde_podes_refor_ar_inspirando_coisas_boas_ou_reiki_e_expirar_o_que_queres_que_saia_n_temos_de_criar_espa_o_em_n_s_para_o_reiki_e_para_as_coisas_boas_n_quando_terminares_v_como_te_sentes_deixa_fluir_o_reiki_como_um_rio_dentro_de_ti_e_apanha_muito_sol_com_cuidado_para_ajudar_a_carregar_e_a_limpar_n_ncomo_te_sentes_depois_destes_exerc_cios_faz_novamente_a_medita_o_gassho_e_agradece_tem_um_dia_feliz"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_consciencia_dia2_praticas_titulo" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/edittext_consciencia_dia2_observacao"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:hint="@string/escreve_a_observa_ao"
+                app:boxStrokeColor="@color/colorPrimary"
+                app:boxStrokeWidth="1dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_consciencia_dia2_praticas">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edittext_consciencia_dia2_observacao_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:contentDescription="@string/image"
+                app:layout_constraintBottom_toTopOf="@+id/btn_fechar_consciencia_dia2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_min="300dp"
+                app:layout_constraintWidth_min="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edittext_consciencia_dia2_observacao"
+                app:srcCompat="@drawable/yoga2" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_fechar_consciencia_dia2"
+                style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="@string/gravar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

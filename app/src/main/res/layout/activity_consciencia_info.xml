@@ -5,5 +5,50 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.elevacaoconsiencia5dias.ConscienciaInfoActivity">
+    <TextView
+        android:id="@+id/txt_info_consciencia"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:nestedScrollingEnabled="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        android:text="@string/estes_cinco_dias_de_pr_tica_est_o_orientados_para_a_tua_forma_de_estar_na_vida_num_aspeto_de_autonetlex_o_limpeza_interior_desintoxica_o_harmonia_e_eleva_o_da_consci_ncia_podendo_ser_partilhada_com_quem_nos_rodeia_importante_que_consideres_estes_cinco_dias_como_um_tempo_para_ganhares_espa_o_e_tempo_dedica_te_e_permite_te_ter_esse_espa_o_e_esse_tempo_vais_ver_que_mesmo_que_s_consigas_ter_15_minutos_eles_far_o_toda_a_diferen_a_lembrate_do_poema_124_do_imperador_meiji_n_n124_em_geral_nolha_para_ti_ncom_frequ_ncia_nsem_te_aperceberes_npodes_ficar_perdido_ne_cometer_erros_n_neste_poema_fala_nos_sobre_a_autoneflex_o_e_a_forma_como_podemos_ficar_perdidos_nos_nossos_pr_prios_erros_um_dos_maiores_erros_tentar_moldar_os_outros_como_n_s_quer_amos_que_eles_fossem_nestes_cinco_dias_de_pr_tica_que_podes_repetir_sempre_que_quiseres_permite_te_desfrutar_o_tempo_que_tiveres_n_o_preciso_mais_do_que_isto_principalmente_se_os_v_veres_com_aten_o_plena_podes_praticar_cinco_horas_de_reiki_mas_se_a_tua_mente_deambula_entre_tarefas_n_o_adianta_muito_se_te_focares_em_pouco_tempo_poder_s_ver_resultados_surpreendentes_porque_viveste_verdadeiramente_o_momento_n_npr_ticas_comuns_para_todos_os_dias_n_nao_longo_destes_cinco_dias_podes_iniciar_a_tua_pr_tica_como_sentires_melhor_ou_ent_o_segue_estes_passos_n_n1_liga_te_energia_da_forma_como_aprendeste_n2_enralzate_para_que_a_energia_da_terra_te_preencha_na_parte_inferior_do_corpo_e_para_que_os_excessos_possam_fluir_para_a_terra_n3_faz_o_banho_seco_que_ir_cortar_as_liga_es_e_o_excesso_de_energia_que_tens_nos_bra_os_e_nas_m_os_n4_faz_a_chuva_de_reiki_pois_ajuda_te_a_limpar_a_aura_n_nseguindo_estes_passos_est_s_a_trabalhar_a_tua_limpeza_0_que_ir_aiudar_te_a_sentires_melhor_a_energia_e_a_lidares_com_as_situa_es_que_queiras_refletir_quanto_mais_purchares_o_teu_canal_melhor_o_reiki_fluir_e_o_teu_processo_de_eleva_o_da_consci_ncia_ser_mais_r_pido_e_sentido_partilho_contigo_as_palavras_s_bias_com_mais_de_20_anos_da_minha_professora_de_ioga_n_o_percas_tempo_em_exerc_cios_constantes_com_os_chacras_se_depois_n_o_mudares_os_teus_h_bitos_este_ensinamento_muito_importante_para_a_nossa_eleva_o_da_consci_ncia_n_o_s_o_os_exerc_cios_que_nos_levam_at_l_mas_a_mudan_a_que_fazemos_em_n_s_essa_sim_permite_nos_viver_durante_mais_tempo_na_eleva_o_que_atingirmos_ntudo_o_que_fizeres_ao_longo_destes_cinco_dias_s_o_processos_para_ires_ganhando_consci_ncia_e_depois_a_verdadeira_diferen_a_estar_na_mudan_a_que_em_ti_fizeres_n_o_te_esque_as_de_seguir_sempre_os_cinco_princ_pios_do_reiki_e_principalmente_s_bondoso_contigo"
+        android:textIsSelectable="false"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_fechar_infoconsciencia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_info_consciencia_tittle" />
 
+    <TextView
+        android:id="@+id/txt_info_consciencia_tittle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/cinco_dias_de_pr_tica_de_reiki_para_a_eleva_o_da_consci_ncia"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_fechar_infoconsciencia"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="@string/fechar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

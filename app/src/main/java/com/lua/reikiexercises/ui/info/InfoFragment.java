@@ -20,8 +20,10 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.google.android.material.button.MaterialButton;
+import com.google.android.material.card.MaterialCardView;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.lua.reikiexercises.R;
+import com.lua.reikiexercises.ui.elevacaoconsiencia5dias.ConscienciaDia4Activity;
 import com.lua.reikiexercises.ui.iniciacao.InfoIniciacaoActivity;
 
 public class InfoFragment extends Fragment {
@@ -43,6 +45,11 @@ public class InfoFragment extends Fragment {
         MaterialButton btn_gassho = root.findViewById(R.id.btn_GASSHO_info);
         MaterialButton btn_reiji_ho = root.findViewById(R.id.btn_Reiji_Ho_info);
         MaterialButton btn_chiryo = root.findViewById(R.id.btn_CHIRYO_info);
+        MaterialButton btn_Kenyoku_ho = root.findViewById(R.id.btn_Kenyoku_ho_info);
+        btn_Kenyoku_ho.setOnClickListener(v -> {
+            Intent intent = new Intent(getActivity(), InfoKENYOKU_HOActivity.class);
+            startActivity(intent);
+        });
         btn_gassho.setOnClickListener(v -> {
             MaterialAlertDialogBuilder builder = new MaterialAlertDialogBuilder(root.getContext());
             LinearLayout layout = new LinearLayout(root.getContext());

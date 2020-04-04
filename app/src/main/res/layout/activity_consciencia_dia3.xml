@@ -5,5 +5,116 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.elevacaoconsiencia5dias.ConscienciaDia3Activity">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="vertical"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+
+            <TextView
+                android:id="@+id/txt_consciencia_dia3_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dia_3_s_por_hoje_sou_grato"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt_consciencia_dia3_explicacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/quando_as_coisas_s_o_muito_f_ceis_n_o_prestamos_aten_o_a_elas_qunado_temos_sa_de_n_o_nos_lembramos_dela_faz_parte_da_nossa_natureza_humana_ent_o_hoje_vamos_trabalhar_a_gratid_o_de_que_forma_trazemos_a_gratid_o_para_a_nossa_vida_e_para_tudo_o_que_nos_acontece_n_n11_em_geral_nse_o_teu_passado_abastado_ne_sem_problemas_pessoais_nas_tuas_obriga_es_humanas_ns_o_facilmente_esquecidas"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_consciencia_dia3_titulo" />
+
+            <TextView
+                android:id="@+id/txt_consciencia_dia3_praticas_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/t_cnicas"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_consciencia_dia3_explicacao" />
+
+            <TextView
+                android:id="@+id/txt_consciencia_dia3_praticas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/se_sentes_que_h_algo_na_tua_vida_que_s_incapaz_de_agradecer_ent_o_podes_fazer_a_seguinte_t_cnica_n_n_fecha_os_olhos_e_liga_te_energia_n_deixa_a_fluir_para_o_teu_cora_o_at_te_sentires_inteiramente_preenchido_de_reiki_n_vlsualiza_tua_frente_a_situa_o_que_te_custa_agradecer_n_observa_a_apenas_ela_pertence_ao_passado_e_tu_apenas_est_s_a_observ_la_n_envia_reiki_para_a_situa_o_n_imagina_as_pessoas_envolvidas_e_a_situa_o_a_ficarem_cada_vez_mais_brilhantes_n_quando_quiseres_terminar_visualiza_a_situa_o_a_esfumarse_em_luz_muito_leve_e_todos_muito_contentes_n_agradece_e_sente_como_est_s_n_o_te_esque_as_do_banho_seco_e_da_chuva_de_reiki_n_ncomo_te_sentes_depois_destes_exerc_cios_faz_novamente_a_medita_o_gassho_e_agradece_tem_um_dia_feliz"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_consciencia_dia3_praticas_titulo" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/edittext_consciencia_dia3_observacao"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:hint="@string/escreve_a_observa_ao"
+                app:boxStrokeColor="@color/colorPrimary"
+                app:boxStrokeWidth="1dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_consciencia_dia3_praticas">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edittext_consciencia_dia3_observacao_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:contentDescription="@string/image"
+                app:layout_constraintBottom_toTopOf="@+id/btn_fechar_consciencia_dia3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_min="300dp"
+                app:layout_constraintWidth_min="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edittext_consciencia_dia3_observacao"
+                app:srcCompat="@drawable/yoga2" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_fechar_consciencia_dia3"
+                style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="@string/gravar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

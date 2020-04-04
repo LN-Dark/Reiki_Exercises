@@ -18,6 +18,7 @@ import android.widget.ImageView;
 
 import com.google.android.material.card.MaterialCardView;
 import com.lua.reikiexercises.R;
+import com.lua.reikiexercises.ui.iniciacao.InfoIniciacaoActivity;
 
 import static android.content.Context.MODE_PRIVATE;
 
@@ -45,6 +46,11 @@ public class ElevacaoConscienciaCincoDiasFragment extends Fragment {
         ImageView img_dia4_done = root.findViewById(R.id.img_consciencia_dia4_done);
         ImageView img_dia5_done = root.findViewById(R.id.img_consciencia_dia5_done);
         SharedPreferences prefs = root.getContext().getSharedPreferences("ReikiExercises", MODE_PRIVATE);
+        String firstIniciacao = prefs.getString("ReikiExercises_consciencia_Info", "");
+        if(!firstIniciacao.equals("1")){
+            Intent intent = new Intent(getActivity(), ConscienciaInfoActivity.class);
+            startActivity(intent);
+        }
         if(!prefs.getString("ReikiExercises_consciencia_Dia1_observacao", "").equals("")){
             img_dia1_done.setVisibility(View.VISIBLE);
         }
