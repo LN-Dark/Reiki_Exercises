@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
+import android.view.MenuItem;
 import android.widget.TextView;
 
 import com.google.android.material.button.MaterialButton;
@@ -16,6 +17,7 @@ public class ConscienciaInfoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_consciencia_info);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setIcon(getDrawable(R.mipmap.ic_launcher));
         getSupportActionBar().setTitle(getString(R.string.app_name));
@@ -28,5 +30,15 @@ public class ConscienciaInfoActivity extends AppCompatActivity {
             editor.apply();
             finish();
         });
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            onBackPressed();
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 }

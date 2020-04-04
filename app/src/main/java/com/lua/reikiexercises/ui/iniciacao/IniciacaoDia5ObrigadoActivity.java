@@ -22,6 +22,7 @@ public class IniciacaoDia5ObrigadoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_iniciacao_dia5_obrigado);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setIcon(getDrawable(R.mipmap.ic_launcher));
         getSupportActionBar().setTitle(R.string.app_name);
@@ -39,5 +40,14 @@ public class IniciacaoDia5ObrigadoActivity extends AppCompatActivity {
         });
     }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            onBackPressed();
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
 
 }
