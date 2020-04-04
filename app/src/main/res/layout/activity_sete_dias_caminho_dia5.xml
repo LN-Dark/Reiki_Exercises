@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.setediascaminho.SeteDiasCaminhoDia5Activity">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="vertical"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:id="@+id/txt_setedias_dia5_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dia_5_vishuddha"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt_setedias_dia5_explicacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/nada_te_posso_dar_a_n_o_ser_a_oportunidade_o_impulso_a_chave_eu_ajudarei_a_tornar_vis_vel_o_teu_pr_prio_mundo_e_isso_tudo_hermann_hesse_n_ncomunicar_preciso_mas_quando_faz_lo_e_como_o_fazer_ns_por_hoje_sou_bondoso_o_que_te_diz_esta_bondade_n_n_que_bondade_tens_para_contigo_n_que_bondade_tens_para_com_os_outros_n_achas_te_mais_bondoso_para_contigo_do_que_para_os_outros_porqu_n_nneste_processo_de_trabalhar_a_bondade_n_o_precisamos_de_muitas_palavras_mas_de_sentir_corretamente_os_dois_cora_es_a_trabalharem_mente_e_cora_o_sentes_essa_harmonia_e_a_plena_comunica_o_n_no_chacra_lar_ngeo_a_porta_o_canal_entre_esses_dois_cora_es_como_est_essa_tua_porta_no_quinto_chacra_o_da_comunica_o_que_tamb_m_tem_a_ver_com_a_bondade_do_quinto_princ_pio_e_o_chacra_da_express_o_do_di_logo_interior_e_exterior_do_comum_e_do_extrassensorial_comunicar_preciso_e_de_todas_as_formas_com_bondade_a_lua_representada_no_vishuddha_a_nossa_parte_ps_quica_e_oculta_assim_a_comunica_o_tem_algo_de_extraordin_rio_de_al_m_mat_ria_a_comunica_o_com_o_universo_e_com_a_vida_reflete_sobre_as_seguintes_quest_es_n_n_sabes_comunicar_contigo_e_com_os_outros_n_escutas_a_sabedoria_da_vida_e_sabes_comunic_la_aos_outros_n_ouves_o_que_o_universo_tem_para_ti_compreendes_verdadeiramente_a_dimens_o_espiritual"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia5_titulo" />
+
+            <TextView
+                android:id="@+id/txt_setedias_dia5_praticas_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/pr_ticas"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia5_explicacao" />
+
+            <TextView
+                android:id="@+id/txt_setedias_dia5_praticas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tratar_o_chacra_lar_ngeo_nem_sempre_confort_vel_como_p_r_as_m_os_relaxa_coloca_uma_m_o_perto_da_base_do_pesco_o_em_contacto_com_a_tiroide_e_a_outra_mais_abaixo_em_contacto_com_o_timo_assim_est_s_a_trabalhar_a_comunica_o_com_o_amor_incondicional_o_quinto_chacra_com_o_quinto_princ_pio_0_que_sentes_nn_o_te_esque_as_de_colocar_a_inten_o_a_bondade_para_contigo_mesmo_a_harmonia_o_amor"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia5_praticas_titulo" />
+
+            <TextView
+                android:id="@+id/txt_setedias_dia5_tecnicas_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"
+                android:text="@string/t_cnicas_de_reiki"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia5_praticas" />
+
+            <TextView
+                android:id="@+id/txt_setedias_dia5_tecnicas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/faz_medita_o_gassho_e_recita_audivelmente_os_cinco_princ_pios_do_reiki_f_los_vibrar_atrav_s_do_chacra_card_aco_saiu_mais_forte"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia5_tecnicas_titulo" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/edittext_setedias_dia5_observacao"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:hint="@string/escreve_a_observa_ao"
+                app:boxStrokeColor="@color/colorPrimary"
+                app:boxStrokeWidth="1dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia5_tecnicas">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edittext_setedias_dia5_observacao_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:contentDescription="@string/image"
+                app:layout_constraintBottom_toTopOf="@+id/btn_fechar_setedias_dia5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintHeight_min="300dp"
+                app:layout_constraintWidth_min="300dp"
+                app:layout_constraintTop_toBottomOf="@+id/edittext_setedias_dia5_observacao"
+                app:srcCompat="@drawable/meditationchacras" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_fechar_setedias_dia5"
+                style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="@string/gravar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

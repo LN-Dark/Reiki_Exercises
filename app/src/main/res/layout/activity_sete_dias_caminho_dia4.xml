@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.setediascaminho.SeteDiasCaminhoDia4Activity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="vertical"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:id="@+id/txt_setedias_dia4_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dia_4_anahata"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt_setedias_dia4_explicacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/o_reiki_a_arte_secreta_de_convidar_a_felicidade_mikao_usui_n_nno_n_mero_quatro_encontras_a_estabilidade_os_quatro_lados_o_quadrado_o_quarto_chacra_o_card_aco_o_amor_incondicional_ressoa_com_o_reiki_e_com_o_quarto_chacra_sente_o_s_por_hoje_trabalho_honestamente_trabalho_a_verdade_e_partilho_em_verdade_assim_o_quarto_princ_pio_do_reiki_que_coincide_com_o_quarto_chacra_o_card_aco_quando_o_cora_o_bate_e_trabalha_tudo_funciona_e_o_mundo_interior_cresce_em_beleza_e_transborda_para_o_exterior_o_cora_o_pede_simplicidade_e_preenchimento_este_n_o_pode_ser_exterior_mas_interior_eu_sou_pleno_em_mim_consegues_sentir_desta_forma_n_n_sentes_te_preenchido_totalmente_se_n_o_o_que_achas_que_falta_e_de_que_maneira_o_poder_s_preencher_n_o_que_te_pede_o_cora_o_neste_preciso_momento_se_escutas_consegues_cumprir_o_que_ele_precisa_n_no_quarto_chacra_tamb_m_chamado_inviol_vel_este_tesouro_que_temos_no_peito_o_amor_incondicional_o_jardim_da_nossa_compaix_o_e_inestim_vel_e_a_fonte_inesgot_vel_do_que_h_de_mais_precioso_0_amor_nquando_temos_o_cora_o_predisposto_tudo_flui_n_o_interessa_quem_esta_a_frente_flui_a_energia_cumpre_o_seu_prop_sito_e_n_s_sentimo_nos_realizados_o_chacra_card_aco_o_motor_do_reiki_e_da_evolu_o_da_nossa_consci_ncia_escuta_o_que_ele_tem_para_te_dizer_n_n_costumas_escutar_o_teu_cora_o_o_que_te_diz_com_frequ_ncia_n_achas_que_tens_mais_para_dar_do_que_para_receber_porque_n_sabes_receber_de_certeza"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia4_titulo" />
+
+            <TextView
+                android:id="@+id/txt_setedias_dia4_praticas_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/pr_ticas"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia4_explicacao" />
+
+            <TextView
+                android:id="@+id/txt_setedias_dia4_praticas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/coloca_as_m_os_no_chacra_card_aco_na_regi_o_do_timo_e_deixa_fluir_reiki_sente_o_calor_agrad_vel_da_energia_a_preencher_o_teu_peito_e_a_fazer_com_que_o_teu_jardim_interior_cres_a_e_fique_brilhante_sorri_interiormente"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia4_praticas_titulo" />
+
+            <TextView
+                android:id="@+id/txt_setedias_dia4_tecnicas_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"
+                android:text="@string/t_cnicas_de_reiki"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia4_praticas" />
+
+            <TextView
+                android:id="@+id/txt_setedias_dia4_tecnicas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/depois_do_autotratamento_pratica_o_nentatsu_esvazia_a_mente_coloca_a_virtude_que_queres_alcan_ar_e_deixa_fluir_o_reiki_para_que_essa_virtude_cres_a_como_te_sentes"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia4_tecnicas_titulo" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/edittext_setedias_dia4_observacao"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:hint="@string/escreve_a_observa_ao"
+                app:boxStrokeColor="@color/colorPrimary"
+                app:boxStrokeWidth="1dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia4_tecnicas">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edittext_setedias_dia4_observacao_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:contentDescription="@string/image"
+                app:layout_constraintBottom_toTopOf="@+id/btn_fechar_setedias_dia4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintHeight_min="300dp"
+                app:layout_constraintWidth_min="300dp"
+                app:layout_constraintTop_toBottomOf="@+id/edittext_setedias_dia4_observacao"
+                app:srcCompat="@drawable/meditationchacras" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_fechar_setedias_dia4"
+                style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="@string/gravar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

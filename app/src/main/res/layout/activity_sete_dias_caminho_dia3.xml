@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.setediascaminho.SeteDiasCaminhoDia3Activity">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="vertical"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+
+            <TextView
+                android:id="@+id/txt_setedias_dia3_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dia_3_manipura"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt_setedias_dia3_explicacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/qual_era_o_teu_rosto_original_aquele_que_possu_as_antes_de_nascer_koan_zen_n_nhoje_ir_s_ao_encontro_do_teu_poder_pessoal_para_o_consolidar_torna_esse_teu_poder_numa_for_a_para_ajudar_os_outros_e_a_ti_mesmo_ns_por_hoje_sou_grato_de_que_s_grato_no_koan_zen_remete_para_a_reflex_o_de_quem_sou_eu_verdadeiramente_esta_procura_pelo_eu_pela_verdadeira_identidade_torna_se_num_caminho_mais_sereno_quando_preenchido_pela_gratid_o_agrade_o_por_tudo_o_que_sou_incluindo_as_partes_que_s_o_m_s_poderia_dizer_menos_boas_mas_n_o_precisamos_de_identificar_claramente_aquilo_que_muitas_vezes_escondemos_e_luz_da_gratid_o_unir_nos_num_todo_tu_s_um_todo_pleno_das_coisas_que_s_o_m_s_e_boas_e_o_resultado_dessa_uni_o_o_ser_incr_vel_que_tu_manifestas_a_dentro_est_uma_luz_extraordin_ria_s_tu_neste_dia_do_caminho_sente_te_sente_o_teu_poder_interior_rev_estas_quest_es_n_n_sei_reconhecer_os_meus_limites_se_n_o_o_que_preciso_para_me_conhecer_melhor_n_sei_agradecer_por_todas_as_li_es_que_eu_mesmo_me_atribuo_na_vida_n_sei_usar_o_meu_poder_pessoal_para_me_construir_e_ajudar_os_outros_a_constru_rem_se_se_n_o_o_que_preciso_para_o_fazer_n_no_chacra_do_plexo_solar_manipura_n_no_plexo_solar_a_fonte_do_nosso_poder_pessoal_visualiza_o_como_um_sol_e_compreender_s_que_a_que_reside_a_tua_for_a_interior_direita_tem_o_figado_e_esquerda_o_ba_o_a_depura_o_e_os_pensamentos_o_plexo_solar_tamb_m_chamado_chacra_simp_tico_porque_se_lembra_de_absorver_a_energia_dissonante_que_o_rodeia_provocando_incha_o_na_barriga_sensa_o_extrema_de_acumula_o_e_mal_estar_tudo_porque_n_o_est_capaz_de_processar_e_de_transformar_a_energia_que_absorveu_este_o_chacra_pelo_qual_comunicamos_as_nossas_emo_es_basta_reparar_que_cruzamos_os_bra_os_frente_ao_plexo_solar_quando_queremos_fechar_nos_para_os_outros_nesta_base_de_poder_reflete_tamb_m_no_seguinte_n_n_sei_lidar_com_as_minhas_emo_es_n_conhe_o_me_na_totalidade_e_identifico_o_que_preciso_n_sou_dependente_de_alguma_forma_n_tenho_problemas_na_zona_da_barriga"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia3_titulo" />
+
+            <TextView
+                android:id="@+id/txt_setedias_dia3_praticas_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/pr_ticas"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia3_explicacao" />
+
+            <TextView
+                android:id="@+id/txt_setedias_dia3_praticas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/o_teu_trabalho_com_o_plexo_solar_passa_por_compreenderes_e_aceitares_o_teu_poder_pessoal_imagina_um_grande_sol_forte_e_incrivelmente_quente_coloca_o_no_teu_chacra_do_plexo_solar_como_te_sentes"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia3_praticas_titulo" />
+
+            <TextView
+                android:id="@+id/txt_setedias_dia3_tecnicas_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"
+                android:text="@string/t_cnicas_de_reiki"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia3_praticas" />
+
+            <TextView
+                android:id="@+id/txt_setedias_dia3_tecnicas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/depois_do_teu_autotratamento_coloca_uma_m_o_no_plexo_solar_e_outra_no_chacra_card_aco_pois_vai_ajudar_te_a_harmonizar_as_emo_es_com_o_amor_incondicional_deixa_te_estar_assim_por_algum_tempo_n_ao_longo_do_dia_tenta_colocar_assim_as_maos_em_momentos_de_repouso_sentes_te_bem"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia3_tecnicas_titulo" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/edittext_setedias_dia3_observacao"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:hint="@string/escreve_a_observa_ao"
+                app:boxStrokeColor="@color/colorPrimary"
+                app:boxStrokeWidth="1dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia3_tecnicas">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edittext_setedias_dia3_observacao_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:contentDescription="@string/image"
+                app:layout_constraintBottom_toTopOf="@+id/btn_fechar_setedias_dia3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintHeight_min="300dp"
+                app:layout_constraintWidth_min="300dp"
+                app:layout_constraintTop_toBottomOf="@+id/edittext_setedias_dia3_observacao"
+                app:srcCompat="@drawable/meditationchacras" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_fechar_setedias_dia3"
+                style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="@string/gravar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

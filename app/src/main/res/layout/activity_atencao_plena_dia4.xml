@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.cincodiasatencaoplena.AtencaoPlenaDia4Activity">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="vertical"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+
+            <TextView
+                android:id="@+id/txt_atencaoplena_dia4_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dia_4_plena_aten_o_na_pr_tica"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt_atencaoplena_dia4_explicacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/uma_jornada_de_mil_milhas_come_a_com_um_simples_passo_lao_tsu_n_nespero_que_estejas_a_gostar_destes_momentos_para_o_desenvolvimento_da_plena_aten_o_com_o_reiki_hoje_vamos_focar_nos_na_pr_tica_no_fluxo_da_energia"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_atencaoplena_dia4_titulo" />
+
+            <TextView
+                android:id="@+id/txt_atencaoplena_dia4_tecnicas_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"
+                android:text="@string/exerc_cios"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_atencaoplena_dia4_explicacao" />
+
+            <TextView
+                android:id="@+id/txt_atencaoplena_dia4_tecnicas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/hoje_vamos_levar_a_aten_o_plena_ao_fluxo_da_energia_e_aos_s_mbolos_a_pr_tica_muito_simples_e_podes_faz_la_ap_s_o_teu_autotratamento_ou_quando_sentires_que_tens_disposi_o_para_tal_n_o_te_esque_as_de_preparar_o_momento_e_de_sentires_te_confort_vel_n_npara_quem_tem_n_vel_1_de_reiki_n_nliga_te_energia_e_quando_sentires_o_fluxo_de_reiki_chegar_s_m_os_faz_o_seguinte_n_n1_fecha_os_olhos_e_limpa_a_mente_n2_concentra_te_no_chacra_da_palma_das_m_os_n3_sente_o_que_se_passa_nessa_zona_n4_como_flui_a_energia_at_ao_chacra_n5_como_sai_a_energia_do_chacra_n6_se_o_chacra_tivesse_uma_cor_qual_seria_n7_acompanha_o_percurso_da_energia_a_sair_das_tuas_m_os_como_sentes_a_energia_bom_n_nesta_t_cnica_ir_ajudar_te_a_focar_e_perceber_o_que_est_s_a_fazer_com_o_envio_de_reiki_um_desenvolvimento_incr_vel_da_consci_ncia_experimenta_v_rias_vezes_pois_ser_sempre_diferente_n_npara_quem_tem_o_n_vel_2_ou_3_n_npodes_usar_o_s_mbolo_com_que_te_sentires_mais_confort_vel_o_ideal_ser_experimentar_todos_os_s_mbolos_se_sentires_algum_mal_estar_emocional_ou_energ_tico_alivia_a_press_o_do_s_mbolo_afastando_o_inspira_reiki_e_ao_expirar_deixa_sair_o_que_n_o_queres_se_esta_situa_o_aconteceu_bom_sinal_de_que_precisavas_de_ser_tratado_com_o_s_mbolo_n_n1_sente_como_a_energia_flui_para_o_cora_o_e_de_l_para_todo_o_corpo_n2_deixa_a_energia_reiki_sair_pelas_m_os_e_pelos_p_s_e_sente_como_se_todo_o_interior_fosse_lavado_por_essa_energia_n3_concentra_te_no_s_mbolo_que_escolheste_n4_desenha_o_s_mbolo_frente_do_tamanho_do_corpo_se_visualzares_cores_podes_v_lo_dourado_violeta_verde_ou_azul_n5_diz_o_seu_mantra_tr_s_vezes_para_o_ativar_n6_sente_a_sua_vibra_o_como_o_simbolo_vibra_em_contacto_com_a_tua_aura_n7_tr_lo_lentamente_para_mais_perto_do_teu_corpo_sempre_sentindo_a_sua_vibra_o_n8_verifica_se_transmite_alguma_imagem_ou_impress_o_na_terceira_vis_o_n9_saboreia_o_momento_n10_quando_quiseres_imagina_o_s_mbolo_a_dissolver_se_na_tua_aura_preenchendo_a_com_as_suas_vibra_o_e_energia_n11_usufrui_essa_vibra_o_durante_algum_tempo_n12_quando_quiseres_terminar_n_o_te_esque_as_de_enraizar_tomar_consci_ncia_do_corpo_e_do_aqui_e_agora_n13_toma_nota_do_que_se_passou_na_medita_o_e_se_tiveres_alguma_sugest_o_de_algo_a_tratar_ou_a_fazer_faz_esse_tratamento_que_a_intui_o_te_pede_n_nquando_o_reiki_flui_mesmo_um_momento_especial_e_maravilhoso_somos_muito_afortunados_por_podermos_e_sabermos_praticar_s_por_isso_vale_a_pena_dizer_s_por_hoje_sou_grato_sou_grato_tamb_m_a_ti_por_este_caminho_e_pela_companhia_nestes_cinco_dias"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_atencaoplena_dia4_tecnicas_titulo" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/edittext_atencaoplena_dia4_observacao"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:hint="@string/escreve_a_observa_ao"
+                app:boxStrokeColor="@color/colorPrimary"
+                app:boxStrokeWidth="1dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_atencaoplena_dia4_tecnicas">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edittext_atencaoplena_dia4_observacao_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:contentDescription="@string/image"
+                app:layout_constraintBottom_toTopOf="@+id/btn_fechar_atencaoplena_dia4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_min="300dp"
+                app:layout_constraintWidth_min="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edittext_atencaoplena_dia4_observacao"
+                app:srcCompat="@drawable/buda" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_fechar_atencaoplena_dia4"
+                style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="@string/gravar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

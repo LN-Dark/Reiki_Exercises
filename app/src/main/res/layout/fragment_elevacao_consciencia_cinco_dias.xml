@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.elevacaoconsiencia5dias.ElevacaoConscienciaCincoDiasFragment">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="0dp"
+        android:id="@+id/card_dia1_consciencia"
+        android:layout_height="wrap_content"
+        app:cardElevation="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txt_consciencia_dia1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/dia_1_s_por_hoje_sou_calmo" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/img_consciencia_dia1_done"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:visibility="invisible"
+            android:src="@drawable/done" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_dia2_consciencia"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:cardElevation="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card_dia1_consciencia">
+
+        <TextView
+            android:id="@+id/txt_consciencia_dia2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/dia_2_s_por_hoje_confio" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/img_consciencia_dia2_done"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:visibility="invisible"
+            android:src="@drawable/done" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_dia3_consciencia"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:cardElevation="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card_dia2_consciencia">
+
+        <TextView
+            android:id="@+id/txt_consciencia_dia3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/dia_3_s_por_hoje_sou_grato" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/img_consciencia_dia3_done"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:visibility="invisible"
+            android:src="@drawable/done" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_dia4_consciencia"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:cardElevation="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card_dia3_consciencia">
+
+        <TextView
+            android:id="@+id/txt_consciencia_dia4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/dia_4_s_por_hoje_trabalho_honestamente" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/img_consciencia_dia4_done"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:visibility="invisible"
+            android:src="@drawable/done" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_dia5_consciencia"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:cardElevation="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card_dia4_consciencia">
+
+        <TextView
+            android:id="@+id/txt_consciencia_dia5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/dia_5_s_por_hoje_sou_bondoso" />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/img_consciencia_dia5_done"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:visibility="invisible"
+            android:src="@drawable/done" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/yoga2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card_dia5_consciencia" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

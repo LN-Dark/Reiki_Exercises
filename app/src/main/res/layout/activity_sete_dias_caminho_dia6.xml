@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.setediascaminho.SeteDiasCaminhoDia6Activity">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="vertical"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:id="@+id/txt_setedias_dia6_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dia_6_ajna"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt_setedias_dia6_explicacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/exige_muito_de_ti_e_espera_pouco_dos_outros_assim_evitar_s_muitos_aborrecimentos_conf_cio_n_nest_s_no_dia_da_consci_ncia_e_da_vis_o_interior_e_a_nossa_consci_ncia_que_observa_e_que_cresce_com_a_pr_tica_dos_princ_pios_quanto_mais_conscientes_ficamos_mais_felizes_somos_mais_independentes_nos_tornamos_e_compreendemos_o_nosso_papel_no_universo_a_par_com_o_de_todos_os_outros_e_ent_o_temos_de_nos_perguntar_n_n_oue_consci_ncia_tenho_de_mim_sei_quem_sou_n_aceito_o_meu_papel_e_o_papel_dos_outros_na_vida_se_n_o_porqu_n_quero_verdadeiramente_ser_consciente_ou_prefer_vel_por_enquanto_n_o_estar_muito_consciente_n_na_terceira_vis_o_rege_a_tua_intui_o_a_capacidade_de_ir_ao_mais_profundo_de_ti_enquanto_te_ligas_ao_universo_e_v_s_as_coisas_como_elas_s_o_para_l_dos_olhos_fisicos_a_tua_vis_o_interior_ser_t_o_apurada_quanto_a_tua_capacidade_para_manteres_uma_mente_limpa_e_a_consci_ncia_elevada_as_exig_ncias_do_quotidiano_e_os_est_mulos_cada_vez_mais_intensos_e_presentes_na_nossa_vida_impedem_te_muitas_vezes_de_ver_corretamente_nent_o_tens_de_te_perguntar_n_n_consigo_ver_claramente_as_situa_es_e_tomar_as_melhores_decis_es_n_sei_escutar_a_minha_intui_o_acredito_no_que_sinto_e_pressinto_porque_n_de_que_forma_me_conhe_o_como_ser_como_esp_rito_como_parte_para_l_do_corpo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia6_titulo" />
+
+            <TextView
+                android:id="@+id/txt_setedias_dia6_praticas_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/pr_ticas"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia6_explicacao" />
+
+            <TextView
+                android:id="@+id/txt_setedias_dia6_praticas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tenta_perceber_qual_o_teu_ponto_mais_fraco_que_chacra_que_rg_o_ap_s_o_tratamento_coloca_uma_m_o_na_terceira_vis_o_e_outra_nessa_regi_o_intui_tenta_perceber_o_que_a_energia_te_quer_dizer_sobre_essa_tua_fragilidade_est_s_a_tomar_consci_ncia_de_ti_e_a_tornares_te_forte"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia6_praticas_titulo" />
+
+            <TextView
+                android:id="@+id/txt_setedias_dia6_tecnicas_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"
+                android:text="@string/t_cnicas_de_reiki"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia6_praticas" />
+
+            <TextView
+                android:id="@+id/txt_setedias_dia6_tecnicas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/pratica_o_hesso_chiryo_para_a_desintoxica_o"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia6_tecnicas_titulo" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/edittext_setedias_dia6_observacao"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:hint="@string/escreve_a_observa_ao"
+                app:boxStrokeColor="@color/colorPrimary"
+                app:boxStrokeWidth="1dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia6_tecnicas">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edittext_setedias_dia6_observacao_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:contentDescription="@string/image"
+                app:layout_constraintBottom_toTopOf="@+id/btn_fechar_setedias_dia6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintHeight_min="300dp"
+                app:layout_constraintWidth_min="300dp"
+                app:layout_constraintTop_toBottomOf="@+id/edittext_setedias_dia6_observacao"
+                app:srcCompat="@drawable/meditationchacras" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_fechar_setedias_dia6"
+                style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="@string/gravar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

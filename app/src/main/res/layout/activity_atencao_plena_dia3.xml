@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.cincodiasatencaoplena.AtencaoPlenaDia3Activity">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="vertical"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+
+            <TextView
+                android:id="@+id/txt_atencaoplena_dia3_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dia_3_desintoxicar_libertar"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt_atencaoplena_dia3_explicacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/nada_te_posso_dar_a_n_o_ser_a_oportunidade_o_impulso_a_chave_eu_ajudarei_a_tornar_vis_vel_o_teu_pr_prio_mundo_e_isso_tudo_hermann_hesse_n_nhoje_vamos_concentrar_a_aten_o_na_nossa_desintoxica_o_quando_recitamos_os_cinco_princ_pios_estamos_a_desintoxicar_a_mente_e_o_cora_o_quando_fazemos_o_autotratamento_estamos_a_desintoxicar_todos_os_nossos_corpos_hoje_exatamente_isso_que_faremos_com_cinco_prinapios_e_autotratamento_vamos_trabalhar_a_nossa_desintoxica_o_encara_estes_exerc_cios_com_alegria_e_deixa_fluir_o_reiki"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_atencaoplena_dia3_titulo" />
+
+
+
+            <TextView
+                android:id="@+id/txt_atencaoplena_dia3_tecnicas_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"
+                android:text="@string/exerc_cios"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_atencaoplena_dia3_explicacao" />
+
+            <TextView
+                android:id="@+id/txt_atencaoplena_dia3_tecnicas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/a_desintoxica_o_pode_ser_feita_de_v_rias_formas_fisica_mental_emocional_energ_tica_e_at_espiritual_tenta_perceber_de_que_forma_te_sentes_mais_intoxicado_ou_bloqueado_n_n_f_sico_n_mental_n_emocional_n_energ_tico_n_espiritual_n_nno_teu_corpo_fisico_experimenta_avaliar_a_tua_alimenta_o_dedica_te_a_caminhar_mais_a_fazer_o_cora_o_funcionar_para_cada_um_dos_outros_corpos_incluindo_tamb_m_o_fisico_vamos_aplicar_hoje_duas_t_cnica_gedoku_chiryo_ho_e_a_medita_o_gassho_no_cap_tulo_de_t_cnicas_podemos_encontrar_a_respetiva_descri_o_n_n_primeiro_faz_o_teu_autotratamento_como_costumas_fazer_e_depois_do_chacra_do_plexo_solar_n_coloca_a_m_o_esquerda_em_cima_do_tanden_dois_dedos_abaixo_de_umbigo_e_em_seguida_p_e_a_direita_exatamente_na_mesma_direc_o_mas_nas_costas_n_visualiza_todas_as_toxinas_fisicas_mentais_emocionais_energ_ticas_espirituais_a_sa_rem_de_ti_n_n_o_te_preocupes_se_saem_pela_barriga_ou_pelos_p_s_deixa_as_apenas_sair_n_naqui_ao_fazeres_o_gedoku_tamb_m_podes_praticar_a_aten_o_plena_isto_quer_dizer_que_deves_apenas_concentrar_te_no_fluxo_de_reiki_que_entra_e_de_energia_densa_que_sai_sem_te_focares_nos_aspetos_negativos_nisto_muito_til_porque_assim_aprender_s_a_dar_import_ncia_ao_que_mais_importante_se_v_s_que_n_o_consegues_faz_a_seguinte_pergunta_a_ti_mesmo_e_mais_importante_focares_te_na_cura_ou_na_doen_a_termina_o_teu_autotratamento_faz_o_banho_seco_e_a_chuva_de_reiki_n_npassa_medita_o_n_nsenta_te_confortavelmente_presta_aten_o_tua_postura_e_endireita_te_para_que_o_canal_flua_serenamente_primeiro_foca_te_na_mente_n_n_visualiza_o_interior_da_cabe_a_como_sendo_uma_sala_n_esvazia_a_sala_por_completo_n_pinta_as_paredes_de_branco_assim_como_o_ch_o_e_o_teto_n_verifica_se_tudo_est_vazio_n_permanece_nesse_vazio_n_nexecuta_a_gassho_n_n1_senta_te_confortavelmente_com_os_p_s_bem_assentes_no_ch_o_para_que_a_energia_flua_os_ombros_relaxados_as_costas_direitas_o_queixo_ligeiramente_inclinado_para_baixo_n2_coloca_as_m_os_em_posi_o_gassho_m_os_juntas_encostadas_ao_chacra_card_aco_n3_leva_a_aten_o_para_o_ponto_onde_os_dois_dedos_m_dios_se_encontram_e_sente_a_energia_que_se_concentra_nessa_regi_o_n4_mant_m_te_no_aqui_e_agora_e_respira_suavemente_fazendo_uma_respira_o_completa_leva_a_energia_ao_tanden_n5_mant_m_te_focado_na_energia_que_entra_pelos_teus_dedos_e_vai_para_o_tanden_e_ao_expirar_na_energia_que_vai_do_tanden_at_aos_dedos_saindo_para_o_exterior_n_o_te_deixes_ir_atr_s_dos_pensamentos_apenas_constata_mas_mant_m_te_centrado_n6_quando_sentires_que_est_s_pronto_inspira_muito_reiki_e_recita_os_cinco_princ_pios_centrado_no_cora_o_fazendo_os_vibrar_do_interior_para_o_exterior_pausadamente_n_ns_por_hoje_sou_calmo_confio_sou_grato_trabalho_honestamente_e_sou_bondoso_n_n7_permanece_no_vazio_da_tua_mente_apenas_preenchido_pela_vibra_o_dos_cinco_princ_pios_e_sente_como_est_s_imagina_a_vibra_o_a_fluir_para_a_tua_aura_para_todo_o_espa_o_que_te_rodeia_n8_quando_quiseres_abre_os_olhos_e_traz_essa_vibra_o_para_o_teu_dia"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_atencaoplena_dia3_tecnicas_titulo" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/edittext_atencaoplena_dia3_observacao"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:hint="@string/escreve_a_observa_ao"
+                app:boxStrokeColor="@color/colorPrimary"
+                app:boxStrokeWidth="1dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_atencaoplena_dia3_tecnicas">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edittext_atencaoplena_dia3_observacao_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:contentDescription="@string/image"
+                app:layout_constraintBottom_toTopOf="@+id/btn_fechar_atencaoplena_dia3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_min="300dp"
+                app:layout_constraintWidth_min="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edittext_atencaoplena_dia3_observacao"
+                app:srcCompat="@drawable/buda" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_fechar_atencaoplena_dia3"
+                style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="@string/gravar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

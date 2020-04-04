@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.setediascaminho.SeteDiasCaminhoDia2Activity">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="vertical"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+
+            <TextView
+                android:id="@+id/txt_setedias_dia2_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dia_2_svadhisthana"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt_setedias_dia2_explicacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/muitas_vezes_as_m_os_ir_o_resolver_um_mist_rio_com_que_o_intelecto_tem_lutado_em_v_o_carl_g_jung_n_nneste_segundo_dia_de_reflex_o_e_trabalho_interior_vamos_dedicar_nos_ao_nosso_segundo_chacra_observar_os_objetivos_de_vida_a_nossa_liberdade_e_a_presen_a_no_mundo_observa_as_seguintes_quest_es_e_tenta_perceber_como_tens_estado_perante_ti_mesmo_e_ante_os_que_te_rodeiam_n_n_praticas_os_cinco_princ_pios_e_consegues_senti_los_em_ti_fazem_parte_do_teu_quotidiano_e_sentes_a_transforma_o_que_eles_te_trazem_n_consegues_aplicar_o_segundo_princ_pio_s_por_hoje_sou_calmo_nas_situa_es_mais_dif_ceis_se_n_o_o_que_achas_que_te_podia_ajudar_a_conseguir_o_que_vais_fazer_para_seres_mais_equilibrado_nas_tuas_decis_es_n_qual_o_teu_maior_objetivo_de_vida_neste_momento_est_s_com_for_a_para_o_realizar_se_n_o_como_achas_que_vais_conseguir_e_de_que_forma_o_reiki_poder_ajudar_n_no_chacra_espl_nico_trabalha_com_os_objetivos_de_vida_a_liberdade_a_alegria_a_criatividade_a_sexualidade_a_rela_o_intima_com_o_outro_os_rg_os_sexuais_verifica_estas_situa_es_em_ti_n_n_como_te_relacionas_com_os_outros_sentes_te_uma_pessoa_envolvente_e_carism_tica_n_tens_objetivos_de_vida_n_sentes_te_uma_pessoa_livre_ou_constrangida_porque_n_n_quando_admiro_a_maravilha_de_um_p_r_do_sol_ou_a_beleza_da_lua_a_minha_alma_expande_se_em_rever_ncia_ao_criador_mahatma_gandhi"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia2_titulo" />
+
+            <TextView
+                android:id="@+id/txt_setedias_dia2_praticas_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/pr_ticas"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia2_explicacao" />
+
+            <TextView
+                android:id="@+id/txt_setedias_dia2_praticas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/para_trabalhares_o_chacra_espl_nico_tens_de_fazer_atividades_que_te_tragam_realiza_o_exerc_cio_fisico_brincar_rir_apanhar_sol_e_coisas_que_te_disponham_interiormente_que_te_fa_am_sentir_vivo"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia2_praticas_titulo" />
+
+            <TextView
+                android:id="@+id/txt_setedias_dia2_tecnicas_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"
+                android:text="@string/t_cnicas_de_reiki"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia2_praticas" />
+
+            <TextView
+                android:id="@+id/txt_setedias_dia2_tecnicas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/ao_fazeres_o_teu_autotratamento_coloca_a_inten_o_de_te_preencher_de_vitalidade_e_alegria_a_alegria_muito_importante_para_o_chacra_espl_nico_n_purifica_as_tuas_emo_es_com_o_hesso_chiryo_que_uma_t_cnica_muito_vital_para_a_desintoxica_o_n_pratica_o_banho_seco_e_a_chuva_de_reiki_para_eliminares_algo_que_tenha_ficado_na_tua_aura_com_a_limpeza"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia2_tecnicas_titulo" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/edittext_setedias_dia2_observacao"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:hint="@string/escreve_a_observa_ao"
+                app:boxStrokeColor="@color/colorPrimary"
+                app:boxStrokeWidth="1dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia2_tecnicas">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edittext_setedias_dia2_observacao_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:contentDescription="@string/image"
+                app:layout_constraintBottom_toTopOf="@+id/btn_fechar_setedias_dia2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintHeight_min="300dp"
+                app:layout_constraintWidth_min="300dp"
+                app:layout_constraintTop_toBottomOf="@+id/edittext_setedias_dia2_observacao"
+                app:srcCompat="@drawable/meditationchacras" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_fechar_setedias_dia2"
+                style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="@string/gravar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

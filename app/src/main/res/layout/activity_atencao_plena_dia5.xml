@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.cincodiasatencaoplena.AtencaoPlenaDia5Activity">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="vertical"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+
+            <TextView
+                android:id="@+id/txt_atencaoplena_dia5_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dia_5_aviv_ncia_no_aqui_e_agora"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt_atencaoplena_dia5_explicacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/a_miss_o_do_usui_reiki_ryoho_guiar_para_uma_vida_pac_fica_e_feliz_curar_os_outros_melhorar_a_sua_felicidade_e_a_nossa_mikao_usui_n_ncomo_foram_para_ti_estes_cinco_dias_n_nespero_que_tenhas_tido_boas_experi_ncias_hoje_vamos_ver_como_trazer_tudo_o_que_fizemos_e_um_bocadinho_mais_para_uma_viv_ncia_no_aqui_e_agora"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_atencaoplena_dia5_titulo" />
+
+            <TextView
+                android:id="@+id/txt_atencaoplena_dia5_tecnicas_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"
+                android:text="@string/exerc_cios"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_atencaoplena_dia5_explicacao" />
+
+            <TextView
+                android:id="@+id/txt_atencaoplena_dia5_tecnicas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/quando_aprendemos_a_ler_praticamos_praticamos_e_praticamos_levamos_anos_a_desenvolver_uma_leitura_correta_uma_dic_o_correta_e_chegamos_a_um_momento_em_que_nos_esquecemos_de_como_foi_dificil_essa_aprendizagem_ndesenvolver_a_aten_o_plena_requer_os_mesmos_esp_rito_e_vis_o_demora_tempo_muito_tempo_requer_pr_tica_pr_tica_e_pr_tica_e_quando_l_chegamos_parece_que_foi_simples_pois_est_integrado_com_a_integra_o_que_conseguimos_mais_rapidamente_atingir_um_bom_resultado_se_aplicarmos_a_nossa_aten_o_nas_pequenas_coisas_do_dia_a_dia_mais_depressa_aprendemos_a_controlar_a_mente_e_a_viver_de_forma_mais_equilibrada_descobrindo_como_reconhecer_pensamentos_e_emo_es_sabendo_como_os_gerir_nneste_dia_vamos_fazer_coisas_simples_para_desenvolver_a_plena_aten_o_no_dia_a_dia_n_n_quando_beberes_o_teu_caf_ou_ch_saboreia_aproveita_cada_gole_que_d_s_diferente_o_que_sentes_n_quando_falares_com_algu_m_foca_te_apenas_na_conversa_e_n_o_fa_as_duas_coisas_ao_mesmo_tempo_como_correu_n_no_teu_trabalho_experimenta_ao_responder_a_um_e_mail_fechar_tudo_o_resto_e_focares_te_apenas_naquela_resposta_como_foi_n_quando_o_telem_vel_tocar_n_o_atendas_logo_deixa_tocar_tr_s_vezes_e_pensa_que_as_minhas_palavras_sejam_bondosas_como_correu_n_nal_m_destas_tarefas_podes_adicionar_outras_mas_coloca_tamb_m_algo_muito_importante_n_n_ao_longo_do_dia_recita_v_rias_vezes_os_cinco_princ_pios_com_plena_aten_o_pausadamente_fazendo_vibrar_em_ti_cada_palavra_cada_sentimento_ser_que_esta_pr_tica_ir_mudar_o_teu_dia_n_no_quinto_dia_um_reflexo_de_tudo_o_que_j_praticaste_mesmo_a_leitura_destas_p_ginas_pode_ser_feita_com_toda_a_aten_o_poss_vel_n_ndesejo_que_estes_cinco_dias_tenham_sido_muito_bonitos_para_ti_e_que_principalmente_te_tenham_levado_a_momentos_de_paz_o_reiki_pede_nos_uma_pr_tica_constante_que_serve_para_nos_construir_enquanto_pessoas_melhores_e_mais_felizes_temos_de_confiar_e_ser_bondosos_connosco"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_atencaoplena_dia5_tecnicas_titulo" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/edittext_atencaoplena_dia5_observacao"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:hint="@string/escreve_a_observa_ao"
+                app:boxStrokeColor="@color/colorPrimary"
+                app:boxStrokeWidth="1dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_atencaoplena_dia5_tecnicas">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edittext_atencaoplena_dia5_observacao_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:contentDescription="@string/image"
+                app:layout_constraintBottom_toTopOf="@+id/btn_fechar_atencaoplena_dia5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_min="300dp"
+                app:layout_constraintWidth_min="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edittext_atencaoplena_dia5_observacao"
+                app:srcCompat="@drawable/buda" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_fechar_atencaoplena_dia5"
+                style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="@string/gravar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_iniciacao"
+        android:icon="@drawable/btn_1"
+        android:title="@string/_5_dias_de_inicia_ao" />
+
+    <item
+        android:id="@+id/navigation_setediascaminho"
+        android:icon="@drawable/btn_2"
+        android:title="@string/_7_dias_de_caminho" />
+
+    <item
+        android:id="@+id/navigation_cincodiasatencaoplena"
+        android:icon="@drawable/btn_3"
+        android:title="@string/_5_dias_de_aten_ao_plena" />
+
+    <item
+        android:id="@+id/navigation_cincodiaselevacaoconsciencia"
+        android:icon="@drawable/btn_4"
+        android:title="@string/eleva_ao_de_consciencia" />
+
+    <item
+        android:id="@+id/navigation_info"
+        android:icon="@drawable/btn_info"
+        android:title="@string/informa_ao" />
+
+</menu>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.cincodiasatencaoplena.AtencaoPlenaDia2Activity">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="vertical"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+
+            <TextView
+                android:id="@+id/txt_atencaoplena_dia2_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dia_2_a_mente"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt_atencaoplena_dia2_explicacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/primeiro_temos_de_cultivar_a_aten_o_plena_para_manifestarmos_e_emanarmos_reiki_devemos_focar_e_purificar_a_mente_kenji_hamamoto_n_ndepois_da_atitude_de_observa_o_e_de_te_conheceres_como_observador_vamos_aprofundar_a_mente"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_atencaoplena_dia2_titulo" />
+
+            <TextView
+                android:id="@+id/txt_atencaoplena_dia2_praticas_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/a_mente"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_atencaoplena_dia2_explicacao" />
+
+            <TextView
+                android:id="@+id/txt_atencaoplena_dia2_praticas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a_mente_dificil_de_ser_controlada_sempre_veloz_inclina_se_perante_aquilo_que_deseja_e_bom_o_treino_da_mente_uma_mente_bem_domada_traz_felicidade_buda_n_na_mente_n_o_um_parasita_nem_algo_estranho_a_n_s_e_uma_parte_nossa_uma_cria_o_natural_nossa_e_deve_ser_abordada_com_a_mesma_compaix_o_com_que_abordamos_uma_ferida_e_com_a_mesma_import_ncia_e_o_respeito_com_que_encaramos_o_esp_rito_ou_os_nossos_ideais_a_mente_produz_cria_e_ajuda_nos_a_ter_uma_perce_o_da_realidade_umas_vezes_concreta_outras_vezes_deturpada_e_ent_o_nossa_responsabilidade_a_do_observador_saber_instruir_a_mente_para_que_possa_trabalhar_de_forma_s_ncrona_com_o_cora_o_para_nos_trazer_a_vis_o_correta_do_mundo_se_tens_uma_mente_demasiadamente_produtiva_n_o_te_entregues_nem_te_abandones_a_ela_antes_pelo_contr_rio_adquire_dom_nio_sobre_ela_educa_a_e_d_lhe_compaix_o_e_amor_reiki_j_pensaste_em_enviar_reiki_para_a_tua_mente"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_atencaoplena_dia2_praticas_titulo" />
+
+            <TextView
+                android:id="@+id/txt_atencaoplena_dia2_tecnicas_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"
+                android:text="@string/exerc_cios"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_atencaoplena_dia2_praticas" />
+
+            <TextView
+                android:id="@+id/txt_atencaoplena_dia2_tecnicas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/como_correram_os_exerc_cios_de_ontem_se_quiseres_mant_m_a_mesma_pr_tica_principalmente_esvaziar_a_mente_essa_mesmo_muito_importante_os_exerc_cios_de_hoje_v_o_centrar_se_nas_tuas_atividades_com_o_reiki_ser_a_que_deves_aplicar_toda_a_tua_aten_o_n_n1_ao_fazeres_a_liga_o_com_o_reiki_coloca_te_apenas_no_momento_presente_sente_como_est_s_sente_o_percurso_da_energia_a_entrar_em_ti_n2_nos_cinco_princ_pios_deixa_cada_um_ressoar_em_ti_entrega_a_tua_energia_e_o_reiki_a_cada_um_dos_princ_pios_e_observa_como_te_transformam_n3_no_autotratamento_mant_m_a_mente_vazia_e_apenas_sente_percebe_como_est_essa_parte_do_corpo_sente_o_que_a_energia_te_aporta_antes_de_mudares_de_posi_o_sente_como_est_s_n4_no_tratamento_aos_outros_deixa_a_energia_fluir_com_a_tua_aten_o_apenas_no_fluxo_constante_n_o_te_prendas_ao_que_sentes_quanto_outra_pessoa_ganha_o_dom_nio_da_tua_mente_e_das_emo_es_e_mant_m_te_centrado_entrega_te_respira_o_ao_enraizamento_uma_coisa_de_cada_vez_deixando_fluir_n_ncomo_te_sentes_n_nnotas_alguma_diferen_a_quando_exerces_uma_total_aten_o_no_que_est_s_a_fazer"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_atencaoplena_dia2_tecnicas_titulo" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/edittext_atencaoplena_dia2_observacao"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:hint="@string/escreve_a_observa_ao"
+                app:boxStrokeColor="@color/colorPrimary"
+                app:boxStrokeWidth="1dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_atencaoplena_dia2_tecnicas">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edittext_atencaoplena_dia2_observacao_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:contentDescription="@string/image"
+                app:layout_constraintBottom_toTopOf="@+id/btn_fechar_atencaoplena_dia2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_min="300dp"
+                app:layout_constraintWidth_min="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edittext_atencaoplena_dia2_observacao"
+                app:srcCompat="@drawable/buda" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_fechar_atencaoplena_dia2"
+                style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="@string/gravar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lua.reikiexercises">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.elevacaoconsiencia5dias.ConscienciaInfoActivity"></activity>
+        <activity android:name=".ui.elevacaoconsiencia5dias.ConscienciaDia5Activity" />
+        <activity android:name=".ui.elevacaoconsiencia5dias.ConscienciaDia4Activity" />
+        <activity android:name=".ui.elevacaoconsiencia5dias.ConscienciaDia3Activity" />
+        <activity android:name=".ui.elevacaoconsiencia5dias.ConscienciaDia2Activity" />
+        <activity android:name=".ui.elevacaoconsiencia5dias.ConscienciaDia1Activity" />
+        <activity android:name=".ui.cincodiasatencaoplena.AtencaoPlenaDia5Activity" />
+        <activity android:name=".ui.cincodiasatencaoplena.AtencaoPlenaDia4Activity" />
+        <activity android:name=".ui.cincodiasatencaoplena.AtencaoPlenaDia3Activity" />
+        <activity android:name=".ui.cincodiasatencaoplena.AtencaoPlenaDia2Activity" />
+        <activity android:name=".ui.cincodiasatencaoplena.AtencaoPlenaDia1Activity" />
+        <activity android:name=".ui.setediascaminho.SeteDiasCaminhoDia7Activity" />
+        <activity android:name=".ui.setediascaminho.SeteDiasCaminhoDia6Activity" />
+        <activity android:name=".ui.setediascaminho.SeteDiasCaminhoDia5Activity" />
+        <activity android:name=".ui.setediascaminho.SeteDiasCaminhoDia4Activity" />
+        <activity android:name=".ui.setediascaminho.SeteDiasCaminhoDia3Activity" />
+        <activity android:name=".ui.setediascaminho.SeteDiasCaminhoDia2Activity" />
+        <activity android:name=".ui.setediascaminho.SeteDiasCaminhoDia1Activity" />
+        <activity android:name=".ui.iniciacao.IniciacaoDia5ObrigadoActivity" />
+        <activity android:name=".ui.iniciacao.IniciacaoDia5Activity" />
+        <activity android:name=".ui.iniciacao.IniciacaoDia4Activity" />
+        <activity android:name=".ui.iniciacao.IniciacaoDia3Activity" />
+        <activity android:name=".ui.iniciacao.IniciacaoDia2Activity" />
+        <activity android:name=".ui.iniciacao.IniciacaoDia1Activity" />
+        <activity android:name=".ui.iniciacao.InfoIniciacaoActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

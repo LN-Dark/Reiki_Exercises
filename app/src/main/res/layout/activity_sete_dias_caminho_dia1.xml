@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.setediascaminho.SeteDiasCaminhoDia1Activity">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="vertical"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+
+            <TextView
+                android:id="@+id/txt_setedias_dia1_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dia_1_muladhara"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt_setedias_dia1_explicacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/o_nosso_corpo_tem_uma_sabedoria_n_s_desconhecemos_damos_lhe_ordens_que_n_o_fazem_sentido_algum_n_henry_miller_n_n_nhoje_iniciamos_o_primeiro_dia_do_nosso_caminho_uma_viagem_conjunta_mas_de_viv_ncia_muito_pessoal_e_interior_e_assim_mesmo_a_vida_quando_caminhamos_mais_despertos_trabalhamos_o_interior_para_podermos_dar_mais_para_o_exterior_desejo_te_um_caminho_muito_bonito_e_cheio_de_alegria_n_n_n_o_sigas_o_passado_n_o_te_percas_no_futuro_o_passado_j_n_o_existe_o_futuro_ainda_n_o_chegou_observando_profundamente_a_vida_como_ela_aqui_e_agora_permanecemos_equilibrados_e_livres_n_koan_zen_n_nneste_primeiro_dia_no_caminho_vais_trabalhar_o_estar_no_aquie_agora_a_consci_ncia_da_tua_raiz_e_a_import_ncia_do_presente_n_o_te_apegues_ao_que_se_passou_nem_desejes_tanto_o_que_vai_acontecer_s_consegues_ser_feliz_agora_nse_puderes_arranja_um_caderno_para_colocares_as_quest_es_e_as_tuas_reflex_es_ir_ajudar_te_a_compreenderes_o_conjunto_de_todo_este_trabalho_e_a_perceberes_no_futuro_como_cresceste_n_n_como_te_sentes_neste_momento_n_achas_que_est_s_muito_agarrado_ao_passado_ou_a_querer_viver_o_futuro_n_como_te_encontras_com_a_vida_aqui_e_agora_sentes_te_feliz_n_o_que_achas_que_te_impede_de_ser_feliz_neste_exato_momento_n_o_que_vais_fazer_para_te_tornares_feliz_em_cada_momento_no_presente_n_n_na_tua_raiz_o_que_te_liga_terra_s_pessoas_e_a_constru_o_da_tua_tribo_e_do_teu_poder_neste_momento_e_a_tua_afirma_o_e_concretiza_o_e_a_sobreviv_ncia_enquanto_ser_com_a_cor_vermelha_n_o_tens_medo_e_tens_for_a_a_vibra_o_mais_baixa_de_todos_os_chacras_mas_a_que_d_resistencia_ao_teu_corpo_que_um_templo_sagrado_como_te_d_s_com_o_chacra_da_raiz_sentes_te_no_aqui_e_agora_enraizas_te_sentes_te_integrado_consegues_usar_o_vermelho"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia1_titulo" />
+
+            <TextView
+                android:id="@+id/txt_setedias_dia1_praticas_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/pr_ticas"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia1_explicacao" />
+
+            <TextView
+                android:id="@+id/txt_setedias_dia1_praticas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/neste_primeiro_dia_guarda_um_momento_para_tomares_consci_ncia_de_ti_mesmo_sente_os_teus_pes_no_ch_o_eo_ar_que_inspiras_toma_consci_ncia_de_cada_momento_nico_de_vida_s_por_hoje_como_o_enraizamento_importante_dedica_te_a_esta_pr_tica_v_rias_vezes_por_dia_se_te_desenraizares_com_frequ_ncia_n_o_te_preocupes_normal_e_o_teu_corpo_energ_tico_vai_aprendendo_a_enraizar_se_ao_longo_do_dia_vai_tendo_consci_ncia_do_momento_presente_sente_o_ar_o_que_v_s_o_que_tocas_o_que_saboreias"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia1_praticas_titulo" />
+
+            <TextView
+                android:id="@+id/txt_setedias_dia1_tecnicas_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"
+                android:text="@string/t_cnicas_de_reiki"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia1_praticas" />
+
+            <TextView
+                android:id="@+id/txt_setedias_dia1_tecnicas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/como_hoje_trabalhamos_o_aqui_e_agora_a_melhor_forma_de_o_fazer_atrav_s_da_medita_o_gassho_n_ncome_a_da_seguinte_forma_n_n1_liga_te_energia_reiki_n2_deixa_fluir_para_a_mente_e_para_o_cora_o_n3_recita_os_cinco_princ_pios_n4_observa_como_est_s_sente_te_n5_pratica_o_enraizamento_o_banho_seco_e_a_chuva_de_reiki_n6_observa_como_est_s_novamente_n7_senta_te_confortavelmente_e_coloca_as_m_os_em_gassho_junto_n8_recita_os_cinco_princ_pios_lentamente_e_sente_a_vibra_o_de_cada_um_no_teu_corpo_e_a_aura_n9_concentra_te_apenas_na_respira_o_e_imagina_que_inspiras_reiki_n_o_s_pelo_chacra_da_coroa_e_pelo_nariz_como_tamb_m_pelos_dedos_m_dios_n10_se_te_concentrares_na_entrada_de_energia_pelo_dedo_m_dio_ter_s_mais_serenidade_e_verificar_s_como_a_energia_entra_em_ti_n11_se_puderes_efetua_este_exerc_cio_durante_10_minutos_n12_no_final_agradece"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia1_tecnicas_titulo" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/edittext_setedias_dia1_observacao"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:hint="@string/escreve_a_observa_ao"
+                app:boxStrokeColor="@color/colorPrimary"
+                app:boxStrokeWidth="1dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_setedias_dia1_tecnicas">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edittext_setedias_dia1_observacao_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:contentDescription="@string/image"
+                app:layout_constraintBottom_toTopOf="@+id/btn_fechar_setedias_dia1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_min="300dp"
+                app:layout_constraintWidth_min="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edittext_setedias_dia1_observacao"
+                app:srcCompat="@drawable/meditationchacras" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_fechar_setedias_dia1"
+                style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="@string/gravar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
